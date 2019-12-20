@@ -72,7 +72,7 @@ Config.zones = {
 	--},
 	
 
-	CokeEnter = {
+	StashEnter = {
 		x = 76.26,
 		y = -1948.28,
 		z = 20.17,
@@ -87,7 +87,7 @@ Config.zones = {
 		}
 	},
 	
-	CokeExit = {
+	StashExit = {
 		x = 151.3,
 		y = -1007.63, 
 		z = -99.0,
@@ -115,13 +115,13 @@ Config.point = {
     },
 
 
-	CokeEnter = {
+	StashEnter = {
 		x = 151.3,
 		y = -1007.63, 
 		z = -99.0,
 	},
 	
-	CokeExit = {
+	StashExit = {
 		x = 76.26,
 		y = -1948.28,
 		z = 20.17
