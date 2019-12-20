@@ -24,14 +24,6 @@ AddEventHandler('tp:hasEnteredMarker', function(zone)
 		CurrentActionMsg  = "Push ~INPUT_LOOK_BEHIND~ to enter the litter warehouse."
     end]]
 
-    if zone == 'WeedEnter' then
-    	CurrentAction = zone
-    end
-	
-	if zone == 'WeedExit' then
-    	CurrentAction = zone
-	end
-
 	if zone == 'SpawnEnter' then
     	CurrentAction = zone
     end
@@ -40,29 +32,14 @@ AddEventHandler('tp:hasEnteredMarker', function(zone)
     	CurrentAction = zone
     end
 	
-	if zone == 'MethEnter' then
+	if zone == 'StashEnter' then
     	CurrentAction = zone
     end
 	
-	if zone == 'MethExit' then
+	if zone == 'StashExit' then
     	CurrentAction = zone
     end
-	
-	if zone == 'CokeEnter' then
-    	CurrentAction = zone
-    end
-	
-	if zone == 'CokeExit' then
-    	CurrentAction = zone
-    end
-	
-	if zone == 'MoneyWashEnter' then
-    	CurrentAction = zone
-    end
-	
-	if zone == 'MoneyWashExit' then
-    	CurrentAction = zone
-    end
+
 
 end)
 
